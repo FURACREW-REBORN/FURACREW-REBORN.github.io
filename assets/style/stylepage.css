@@ -10,7 +10,10 @@ img{
 header{
   background-color:aliceblue;
 }
-
+.header-logo{
+  display: flex;
+  
+}
 .header-nav{
   background-color: none;
 }
@@ -20,3 +23,6 @@ header{
   list-style-type: none;
 }
 
+.header-item__link{
+  text-decoration: none;
+}
