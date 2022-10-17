@@ -10,6 +10,10 @@ img{
 header{
   background-color:aliceblue;
 }
+.header-top{
+  display: flex;
+  
+}
 .header-logo{
   display: flex;
   flex-direction: row;
