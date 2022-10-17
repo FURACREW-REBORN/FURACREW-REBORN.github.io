@@ -9,3 +9,6 @@ header{
   background-color:aliceblue;
 }
 
+.header-nav{
+  display: flex;
+}
