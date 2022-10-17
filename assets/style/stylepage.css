@@ -12,7 +12,8 @@ header{
 }
 .header-logo{
   display: flex;
-  
+  flex-direction: row;
+
 }
 .header-nav{
   background-color: none;
