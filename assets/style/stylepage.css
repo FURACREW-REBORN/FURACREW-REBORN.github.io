@@ -10,5 +10,9 @@ header{
 }
 
 .header-nav{
+  
+}
+
+.header-list{
   display: flex;
 }
