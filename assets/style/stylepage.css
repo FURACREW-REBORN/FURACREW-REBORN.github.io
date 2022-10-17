@@ -4,15 +4,19 @@ body{
 
   font: 1em sans-serif;
 }
-
+img{
+  max-width: 100%;
+}
 header{
   background-color:aliceblue;
 }
 
 .header-nav{
-  
+  background-color: none;
 }
 
 .header-list{
   display: flex;
+  list-style-type: none;
 }
+
