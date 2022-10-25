@@ -1,0 +1,30 @@
+@import 'header';
+
+// Основные стили для странички
+@font-face {
+  font-family: Coding;
+  src: url(../font/all/MPLUSCodeLatin-VariableFont_wdth\,wght.ttf);
+}
+a{
+  text-decoration: none;
+}
+.heading{
+  font-size: 72px;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 82px;
+}
+body{
+  font-size: 20px;
+  background-color:#2a2a2a;
+  color:white;
+  font-family:'Coding';
+}
+
+.container{
+  width:80%;
+  margin:0 auto;
+}
+
+
+// -----------------------------
