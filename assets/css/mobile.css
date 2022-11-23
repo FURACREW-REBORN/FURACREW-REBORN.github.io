@@ -1,5 +1,7 @@
 @media (max-width:1000px){
-
+  .container{
+    width:98%;
+  }
   .open-menu{
     background-color:#1F2235;
     width:100%;
