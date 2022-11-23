@@ -1,0 +1,98 @@
+@media (max-width:1000px){
+
+  .open-menu{
+    background-color:#1F2235;
+    width:100%;
+    height:100vh;
+
+    display: block;
+
+    
+  }
+  .heading-name{
+    font-size: 27px;
+    font-weight: bolder;
+  }
+  body{
+    font-size: 34px;
+  }
+  .mobile-nav__inner{
+    display: flex;
+  }
+  .header__inner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-nav{
+    display: none;
+  }
+
+  .header-text__inner{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-gap: 100px;
+  }
+
+  .header-text-link{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+
+    text-align: center;
+  }
+
+  .header-photo-team{
+    display: none;
+  }
+
+  .who-are-we__inner{
+    display: grid;
+    grid-template-columns:1fr;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .who-are-we-photo{
+    display: none;
+  }
+
+  .paremetrs-team{
+    text-align: center;
+  }
+
+  .portfolio{
+    display: none;
+  }
+
+ .our-services-card-more{
+  width:100px;
+  height:100px;
+
+  display: none;
+ }
+
+.our-services-list{
+  display: grid;
+  justify-items: start;
+  align-content: start;
+  grid-template-columns:1fr;
+  grid-column-gap: 40px;
+  grid-row-gap: 60px;
+}
+  .static-team-cards{
+    display: grid;
+    grid-template-columns:1fr;
+    gap:40px;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .Latest-Orders-cards{
+    display: grid;
+    grid-template-columns:1fr;
+    gap:40px;
+  
+    justify-items: center;
+  }
+}
