@@ -1,0 +1,175 @@
+section{
+    background-color: white;
+}
+header ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:90%;
+    margin:0 auto;
+}
+.heading{
+    color:#2BA84A;
+}
+
+main section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* header */
+.header section{
+    margin-top: 30px;
+}
+.header-search__inner{
+    padding:20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-search-nav-list{
+    display: flex;
+    gap:20px;
+
+}
+
+.header-search-LogReg{
+    display: flex;
+    gap:20px;
+}
+
+.header-contacts-social{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header-contacts-phone{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.purshare-call{
+    background-color: #FF5F01;
+    padding:11px 30px;
+    border-radius: 20px 0px;
+}
+.purshare-call-link{
+    color:white;
+    text-decoration: none;
+}
+.call-free{
+    font-size: 13px;
+}
+
+.header-contacts__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.catalog-header{
+    background-color: #2D3A3A;
+    padding:30px 0px;
+    color:white;
+}
+.catalog-header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catalog-header-list{
+    display: flex;
+    gap:20px;
+    
+}
+
+.properietary-mixtures-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+
+}
+
+.properietary-mixtures-list-item{
+    width:20%;
+    height:130px;
+
+    background-color: #2BA84A;
+    color:white;
+    font-size: 1.3em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 20px 0;
+    padding:10px;
+
+}
+
+.catalog-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:120px;
+
+    justify-content: center;
+}
+.catalog-list ul{
+    padding:0;
+    margin:0;
+}
+.catalog-item{
+    width:13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.catalog-text{
+   
+
+    text-align: center;
+}
+
+.grass-mixture-orders__inner{
+    display: flex;
+    align-items: end;
+    gap:40px;
+}
+.grass-mixture-form{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.grass-mixture-form-input{
+    width:612px;
+    height:50px;
+
+
+}
+.grass-mixture-privacy{
+    display: flex;
+    gap:20px;
+}
+.grass-privacy{
+    width:50px;
+    height:50px;
+}
+.privacy{
+    align-self: center;
+}
+.description-mixture{
+    height:120px;
+}
+
+.grass-mixture-form{
+    align-self: center;
+}

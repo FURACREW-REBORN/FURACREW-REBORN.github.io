@@ -1,0 +1,107 @@
+section{
+    background-color: white;
+}
+header ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:90%;
+    margin:0 auto;
+}
+.heading{
+    color:#2BA84A;
+}
+
+main section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* header */
+.header section{
+    margin-top: 30px;
+}
+.header-search__inner{
+    padding:20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-search-nav-list{
+    display: flex;
+    gap:20px;
+
+}
+
+.header-search-LogReg{
+    display: flex;
+    gap:20px;
+}
+
+.header-contacts-social{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header-contacts-phone{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.purshare-call{
+    background-color: #FF5F01;
+    padding:11px 30px;
+    border-radius: 20px 0px;
+}
+.purshare-call-link{
+    color:white;
+    text-decoration: none;
+}
+.call-free{
+    font-size: 13px;
+}
+
+.header-contacts__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.catalog-header{
+    background-color: #2D3A3A;
+    padding:30px 0px;
+    color:white;
+}
+.catalog-header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catalog-header-list{
+    display: flex;
+    gap:20px;
+    
+}
+
+.blog-list-item{
+    display: flex;
+    gap:40px;
+
+}
+.blog-image{
+    align-self: center;
+
+    background-color:greenyellow;
+    padding:39px 70px;
+    border-radius: 30px 0;
+}
+.blog-text{
+    width:60%;
+}
+.blog-nav{
+    margin-left: 5%;
+}

@@ -1,0 +1,264 @@
+section{
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+.container{
+    width:90%;
+    margin:0 auto;
+}
+.heading{
+    color:#2BA84A;
+}
+/* header */
+.header section{
+    margin-top: 30px;
+}
+.header-search__inner{
+    padding:20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-search-nav-list{
+    display: flex;
+    gap:20px;
+
+}
+
+.header-search-LogReg{
+    display: flex;
+    gap:20px;
+}
+
+.header-contacts-social{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header-contacts-phone{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.purshare-call{
+    background-color: #FF5F01;
+    padding:11px 30px;
+    border-radius: 20px 0px;
+}
+.purshare-call-link{
+    color:white;
+    text-decoration: none;
+}
+.call-free{
+    font-size: 13px;
+}
+
+.header-contacts__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.catalog-header{
+    background-color: #2D3A3A;
+    padding:30px 0px;
+    color:white;
+}
+.catalog-header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catalog-header-list{
+    display: flex;
+    gap:20px;
+    
+}
+/* ------ */
+/* main */
+main section{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+/* --- */
+/* heading-rustrav */
+.heading-rustrav__inner{
+    display: flex;
+    align-items: center;
+}
+
+.heading-rustrav-text{
+    width:80%;
+}
+.heading-rustav-text-block-link{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.white{
+    
+}
+.heading-rustrav-link{
+    color:#2BA84A;
+}
+/* -------------- */
+
+/* rustrav-cards */
+.rustrav-cards-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+}
+.rustrav-heading-card{
+    background-color: salmon;
+    border-radius:30px 0;
+    padding:20px;
+
+    height:75%;
+}
+.rustrav-card-item:not(.rustrav-heading-card){
+    background-color: salmon;
+    padding:10px;
+    text-align: center;
+    border-radius:30px 0;
+    
+
+}
+.rustrav-card-description{
+    line-height: 28px;
+}
+
+.rustrav-heading-card{
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+/* --------------- */
+/* our-advantages */
+.our-advantages__inner{
+    display: flex;
+    align-items: center;
+}
+
+.our-advantages-cards-list{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+/* ----------- */
+
+/* best-product */
+.best-product{
+    padding:50px;
+}
+.best-product-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.best-product-buttons{
+    display: flex;
+    gap:20px;
+}
+
+.best-product-card-list{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+
+.best-product-card-item{
+    text-align: center;
+}
+/* ----------- */
+/* grass-mixture */
+.grass-mixtures{
+    background-color:#E4DFC2;
+}
+.grass-mixture__inner{
+    display: flex;
+}
+.grass-mixture-list{
+    list-style-type: disc;
+    margin:5px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap:10px;
+}
+
+
+.grass-mixture-item{
+
+}
+.grass-mixtures-photo{
+}
+.grass-mixture-text{
+    width:60%;
+}
+/* ------------ */
+
+.our-specialist-cards-list{
+    display:flex;
+    justify-content: center;
+    gap:70px;
+    margin-bottom:70px;
+}
+.our-specialist-card-border-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    height: 70px;
+    padding:10px;
+    border-radius: 20px 0;
+    text-align: center;
+    background-color: #2BA84A;
+}
+.our-specialist-cards-item{
+    align-self: center;
+}
+.our-specialist-card-item-text{
+}
+.our-specialist-purshare{
+    width:20%;
+    text-align: center;
+    margin:0 auto;
+}
+
+
+/* best-product */
+.best-product-cards-list{
+    display: flex;
+    margin-left: 5%;
+    gap:70px;
+
+    justify-items: center;
+    align-items: center;
+}
+/* ----------- */
+
+/* profitable */
+.profitable-terms-list{
+    list-style-type: disc;
+    margin:10px 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+/* --------- */

@@ -1,0 +1,181 @@
+section{
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+.container{
+    width: 90%;
+    margin:0 auto;
+}
+.heading{
+    color:#2BA84A;
+    margin-bottom: 17px;
+}
+/* header */
+.header section{
+    margin-top: 30px;
+}
+.header-search__inner{
+    padding:20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-search-nav-list{
+    display: flex;
+    gap:20px;
+
+}
+
+.header-search-LogReg{
+    display: flex;
+    gap:20px;
+}
+
+.header-contacts-social{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header-contacts-phone{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.purshare-call{
+    background-color: #FF5F01;
+    padding:11px 30px;
+    border-radius: 20px 0px;
+}
+.purshare-call-link{
+    color:white;
+    text-decoration: none;
+}
+.call-free{
+    font-size: 13px;
+}
+
+.header-contacts__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.catalog-header{
+    background-color: #2D3A3A;
+    padding:30px 0px;
+    color:white;
+}
+.catalog-header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.catalog-header-list{
+    display: flex;
+    gap:20px;
+    
+}
+/* ------ */
+/* main */
+main section{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+/* --- */
+/* heading-rustrav */
+.heading-rustrav__inner{
+    display: flex;
+    align-items: center;
+}
+
+.heading-rustrav-text{
+    width:80%;
+}
+.heading-rustav-text-block-link{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.white{
+    
+}
+.heading-rustrav-link{
+    color:#2BA84A;
+}
+/* -------------- */
+.basket-nav{
+    margin-bottom: 23px;
+}
+.basket-nav-list{
+    display: flex;
+    gap:20px;
+}
+
+.basket-description__container{
+    display: flex;
+    gap:84px;
+}
+
+.basket-description-list{
+    display: flex;
+    justify-content:space-between;
+
+    padding:22px 11px;
+    background-color:#E4E7E7;
+}
+
+
+
+.basket-price-description{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+
+    border-bottom: 1px solid #E4E7E7;
+    
+}
+
+.basket-price-description__container{
+    display: flex;
+    align-self: center;
+    gap:90px;
+}
+.basket-price-icon{
+    margin-left: 60%;
+}
+
+.basket-price-description-package-name{
+    align-self: center;
+    margin-left: 30px;
+}
+
+.basket-price-price{
+    align-self: center;
+}
+
+.mount-link{
+    color:white;
+    text-decoration: none;
+    background-color: #FF5F01;
+    padding:11px 30px;
+    border-radius:20px 0;
+}
+
+.mount-product{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.mount-product-container{
+    display: flex;
+    gap:30px;
+}
