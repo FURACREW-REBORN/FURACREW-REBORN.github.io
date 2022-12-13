@@ -29,6 +29,90 @@ ul{
     gap:20px;
 
 }
+.catalog{
+    display: flex;
+    gap:10px;
+
+}
+
+.catalog-header-item-catalog-link{
+    text-decoration: none;
+    color:white;
+
+    display: flex;
+    gap:10px;
+}
+
+
+.close-link{
+    margin-top:-1px;
+
+    width:12px;
+    height:12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    rotate:45deg;
+}
+
+.open-link{ 
+    margin-top:5px;
+
+    width:12px;
+    height:12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+
+    rotate:226deg;
+}
+.catalog-menu{
+    display: none;
+    position:absolute;
+    margin-left:-3%;
+    margin-top:4%;
+    width:95%;
+    height:500px;
+}
+.catalog-menu__inner{
+    width:100%;
+    margin:0 auto;
+    padding:50px 30px;
+    background-color: white;
+}
+.open-menu{
+    display: block;
+    position:absolute;
+    margin-left:-3%;
+    margin-top:4.5%;
+    width:95%;
+    height:500px;
+}
+
+.catalog-header-item-link{
+   
+}
+
+.catalog-menu-item{
+    color: #2D3A3A;
+}
+.catalog-menu-link{
+    color:#2BA84A;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+    font-weight: bold;
+}
+.catalog-menu-list{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    
+}
+
+.catalog-menu-block-item{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
 
 .header-search-LogReg{
     display: flex;
