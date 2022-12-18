@@ -27,14 +27,56 @@ ul{
 .header-search-nav-list{
     display: flex;
     gap:20px;
+    
+}
+.header-search-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2D3A3A;
+    text-decoration: none;
 
+}
+
+.header-search-input{
+    border: 1px solid #2D3A3A;
+    border-radius: 30px;
+    width: 212px;
+    height: 40px;
+}
+.header-search-item{
+    position: relative;
+    right: 14%;   
+
+}
+
+.header-search-LogReg-link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #2BA84A;
+    
+}
+.catalog-menu-item{
+    color: #E4DFC2;
 }
 .catalog{
     display: flex;
     gap:10px;
 
 }
-
+.catalog-menu-link{
+    color: #E4DFC2;
+    text-decoration: none;
+}
+.catalog-link{
+    color: #2BA84A;
+}
 .catalog-header-item-catalog-link{
     text-decoration: none;
     color:white;
@@ -42,14 +84,41 @@ ul{
     display: flex;
     gap:10px;
 }
+.header-contacts-item{
+    display: flex;
+}
+.header-contacts-social-link{
+    display: flex;
+    gap:10px;
+    justify-items: center;
+    text-decoration: none;
+    color:#2D3A3A;
 
+}
+.header-contacts-phone-link{
+    text-decoration: none;
+    color:#2D3A3A;
+    display: flex;
+    gap:10px;
+}
+
+.header-contacts-phone{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.header-contacts-social{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
 
 .close-link{
     margin-top:-1px;
 
     width:12px;
     height:12px;
-    border: solid white;
+    border: solid #2BA84A;
     border-width: 0 3px 3px 0;
     rotate:45deg;
 }
@@ -93,6 +162,7 @@ ul{
 
 .catalog-menu-item{
     color: #2D3A3A;
+    text-decoration: none;
 }
 .catalog-menu-link{
     color:#2BA84A;
@@ -108,10 +178,23 @@ ul{
     
 }
 
+.catalog-header-link{
+    text-decoration: none;
+    color:#E4DFC2;
+}
+
+
+.basket-item{
+    color: #2BA84A;
+}
+
+
+
 .catalog-menu-block-item{
     display: flex;
     flex-direction: column;
     gap:5px;
+    color:#E4DFC2;
 }
 
 .header-search-LogReg{
@@ -346,3 +429,46 @@ main section{
 }
 
 /* --------- */
+.footer{
+    background-color: #2D3A3A;
+    padding: 139px 0;
+}
+
+.footer__inner{
+    display: grid;
+    grid-template-columns:repeat(4,20%);
+    justify-content: center;
+    grid-gap:5%;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+
+.footer-list-logo{
+    align-self: end;
+}
+
+.footer-list-purshare{
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+}
+
+.footer-list-item-icons{
+    display: flex;
+    margin-right: 12px;
+}
+
+
+.footer-list-contacts{
+    display:flex;
+}
+.footer-list-item{
+    color: #E5E5E5;
+}
+.footer-list-item-heading{
+    color: #2BA84A;
+}
