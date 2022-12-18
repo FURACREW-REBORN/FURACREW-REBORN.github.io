@@ -257,14 +257,46 @@ main section{
     gap:20px;
 }
 
+.best-product-nav-arrow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#2BA84A;
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    width:70px;
+    height:50px;
+
+    border-radius: 30px 0;
+
+    cursor:pointer;
+}
+
+.slider-link{
+    text-decoration: none;
+    color:white;
+
+
+}
+
+
+
 .best-product-card-list{
     display: flex;
     justify-content: center;
     gap:50px;
 }
 
-.best-product-card-item{
+.best-product-card-item:not(.next-block){
     text-align: center;
+    display: block;
+}
+
+.next-block{
+    text-align: center;
+    display: none;
 }
 /* ----------- */
 /* grass-mixture */

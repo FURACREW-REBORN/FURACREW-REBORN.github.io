@@ -167,8 +167,10 @@
                   <b>Доступные действия:</b>
                 </li>
 
-                <li class="basket-nav-list-item basket-nav-list-item__button">
-                  Оформить заказ
+                <li class="basket-nav-list-item">
+                  <a href='../../pages/payment/payment.html'class="basket-nav-list-item">
+                    Оформить заказ
+                  </a>
                 </li>
 
                 <li class="basket-nav-list-item basket-nav-list-item__button">
@@ -229,16 +231,19 @@
                       </div>  
                       <div class="basket-price-description-right basket-price-description__container">
                         <div class="basket-price-mount">
-                          <span>+</span>20<span>-</span>
+                          <span class="basket-plus" id="plus">+</span><div class="basket-price-number" id="number">0</div><span class="basket-minus" id="minus">-</span>
                         </div>
 
                         <div class="basket-price-price">
                           <div>10 840 ₽/уп.</div>
-                          <div>9 940 ₽/уп.</div>
+                          <div class="bag-basket-price-block">
+                            <div class="bag-price" id="bag-price-block">9940</div><span>₽/уп.</span>
+                          </div>
+                          
                         </div>
 
                         <div class="basket-price-mount">
-                          <div>198 800 ₽/уп.</div>
+                          <div class="bag-price-mount-block" id="">0</div><span>₽/уп.</span>
                         </div>
 
                         <div class="basket-price-delete">
@@ -262,16 +267,18 @@
                       </div>  
                       <div class="basket-price-description-right basket-price-description__container">
                         <div class="basket-price-mount">
-                          <span>+</span>20<span>-</span>
+                          <span class="basket-plus">+</span><div class="basket-price-number">0</div><span class="basket-minus">-</span>
                         </div>
 
                         <div class="basket-price-price">
                           <div>10 840 ₽/уп.</div>
-                          <div>9 940 ₽/уп.</div>
+                          <div class="bag-basket-price-block">
+                            <div class="bag-price" id="bag-price-block">9940</div><span>₽/уп.</span>
+                          </div>
                         </div>
 
                         <div class="basket-price-mount">
-                          <div>198 800 ₽/уп.</div>
+                          <div class="bag-price-mount-block">0</div><span>₽/уп.</span>
                         </div>
 
                         <div class="basket-price-delete">
@@ -295,16 +302,18 @@
                       </div>  
                       <div class="basket-price-description-right basket-price-description__container">
                         <div class="basket-price-mount">
-                          <span>+</span>20<span>-</span>
+                          <span class="basket-plus">+</span><div class="basket-price-number">0</div><span class="basket-minus">-</span>
                         </div>
 
                         <div class="basket-price-price">
-                          <div>10 840 ₽/уп.</div>
-                          <div>9 940 ₽/уп.</div>
+                          <div class="basket-discount">10 840 ₽/уп.</div>
+                          <div class="bag-basket-price-block">
+                            <div class="bag-price" id="bag-price-block">9940</div><span>₽/уп.</span>
+                          </div>
                         </div>
 
                         <div class="basket-price-mount">
-                          <div>198 800 ₽/уп.</div>
+                          <div class="bag-price-mount-block">0</div><span>₽/уп.</span>
                         </div>
 
                         <div class="basket-price-delete">
@@ -316,12 +325,12 @@
 
                   <div class="mount-product">
                     <div class="mount-product-container">
-                      <span>Всего товаров:<span>130</span></span>
-                      <span>Сумма заказов:<span>880 800 ₽</span></span>
+                      <span>Всего товаров:<span class="number-product" id="product-number">0</span></span>
+                      <span>Сумма заказов:<span class="product-mount-all" id="product-mount-all">0</span></span>
                     </div>
 
                     <div class="mount-product-link">
-                      <a href="#" class="mount-link">
+                      <a href="../../pages/payment/payment.html" class="mount-link">
                         оформить заказ
                       </a>
                     </div>
@@ -339,5 +348,6 @@
     <footer>
 
     </footer>
+<script src="../../script/basket.js"></script>    
 </body>
 </html>

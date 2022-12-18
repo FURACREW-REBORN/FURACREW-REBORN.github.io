@@ -110,12 +110,21 @@ main section{
     color:#2BA84A;
 }
 /* -------------- */
+
 .basket-nav{
     margin-bottom: 23px;
+}
+.basket-price-card{
+    width:96%;
+    margin:0 auto;
 }
 .basket-nav-list{
     display: flex;
     gap:20px;
+}
+.basket-nav-list-item__button{
+    cursor: pointer;
+    
 }
 
 .basket-description__container{
@@ -155,11 +164,25 @@ main section{
     align-self: center;
     margin-left: 30px;
 }
-
+.basket-price-mount{
+    cursor:pointer;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    justify-items: center;
+    font-weight: bold;
+}
 .basket-price-price{
     align-self: center;
+    display: flex;
+    flex-direction: column;
 }
-
+.bag-basket-price-block{
+    display: flex;
+}
+.bag-price-block{
+    display:flex;
+}
 .mount-link{
     color:white;
     text-decoration: none;
