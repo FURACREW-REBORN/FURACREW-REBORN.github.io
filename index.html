@@ -498,12 +498,12 @@
 						Популярные товары
 					</h2>
 					<div class="best-product-buttons">
-						<div class="best-product-nav-arrow-left">
-							<
+						<div class="best-product-nav-arrow-left best-product-nav-arrow" id="slider-arrow-prev">
+               <
 						</div>
 
-						<div class="best-product-nav-arrow-right">
-							>
+						<div class="best-product-nav-arrow-right best-product-nav-arrow" id="slider-arrow-next">
+              >
 						</div>
 			
 					</div>
@@ -511,7 +511,8 @@
 				</div>
 				<div class="best-product-cards">
 					<ul class="best-product-card-list">
-						<li class="best-product-card-item">
+
+						<li class="best-product-card-item curry" id="first-block">
 							<img src="assets/image/img.svg" alt="Иконка" class="best-product-image">
 							<div class="best-product-card-text">
 								<p class="best-product-card-description">
@@ -530,7 +531,7 @@
 							</div>
 						</li>
 
-						<li class="best-product-card-item">
+						<li class="best-product-card-item curry">
 							<img src="assets/image/img.svg" alt="Иконка" class="best-product-image">
 							<div class="best-product-card-text">
 								<p class="best-product-card-description">
@@ -549,7 +550,7 @@
 							</div>
 						</li>
 
-						<li class="best-product-card-item">
+            <li class="best-product-card-item curry">
 							<img src="assets/image/img.svg" alt="Иконка" class="best-product-image">
 							<div class="best-product-card-text">
 								<p class="best-product-card-description">
@@ -567,6 +568,64 @@
 								</p>
 							</div>
 						</li>
+
+            <li class="next-block" id="last-block">
+							<img src="assets/image/green-bag.svg" alt="Иконка" class="best-product-image">
+							<div class="best-product-card-text">
+								<p class="best-product-card-description">
+									Мятлик луговой. Сорт Маркус. Германия DSV
+								</p>
+
+								<p class="best-product-price">
+									<span class="best-product-money">
+										от 927 ₽
+									</span>
+
+									<span class="best-product-package">
+										/ уп.
+									</span>
+								</p>
+							</div>
+						</li>
+
+            <li class="next-block">
+							<img src="assets/image/green-bag.svg" alt="Иконка" class="best-product-image">
+							<div class="best-product-card-text">
+								<p class="best-product-card-description">
+									Мятлик луговой. Сорт Маркус. Германия DSV
+								</p>
+
+								<p class="best-product-price">
+									<span class="best-product-money">
+										от 927 ₽
+									</span>
+
+									<span class="best-product-package">
+										/ уп.
+									</span>
+								</p>
+							</div>
+						</li>
+
+            <li class="next-block">
+							<img src="assets/image/green-bag.svg" alt="Иконка" class="best-product-image">
+							<div class="best-product-card-text">
+								<p class="best-product-card-description">
+									Мятлик луговой. Сорт Маркус. Германия DSV
+								</p>
+
+								<p class="best-product-price">
+									<span class="best-product-money">
+										от 927 ₽
+									</span>
+
+									<span class="best-product-package">
+										/ уп.
+									</span>
+								</p>
+							</div>
+						</li>
+            
 					</ul>
 				</div>
 			</div>
@@ -905,6 +964,8 @@
 				</div>
 		</div>
    </footer>
-<script src="assets/script/index-script.js"></script>	 
+<script src="assets/script/index-script.js"></script>	
+<script src="assets/script/jquery-3.6.2.min.js"></script>
+<script src="assets/script/index-slider.js"></script>
 </body>
 </html>
