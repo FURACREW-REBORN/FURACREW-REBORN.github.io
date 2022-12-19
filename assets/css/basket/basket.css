@@ -247,7 +247,12 @@ ul{
     display: flex;
     gap:20px;}
 /* -------------- */
-
+.basket-blog{
+  
+}
+.basket{
+    margin: 200px 0px;
+}
 .basket-nav{
     margin-bottom: 23px;
 }
