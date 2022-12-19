@@ -247,16 +247,14 @@ ul{
     display: flex;
     gap:20px;}
 /* -------------- */
-<<<<<<< Updated upstream
+
 .basket-blog{
   
 }
 .basket{
     margin: 200px 0px;
-=======
-.basket{
-    margin: 100px 0;
->>>>>>> Stashed changes
+
+
 }
 .basket-nav{
     margin-bottom: 23px;
