@@ -414,22 +414,24 @@
 
           <div class="catalog-sort-menu" id="menu-sort">
             <ul class="catalog-sort-menu-list">
-              <li class="catalog-sort-menu-item">
-                Цены по возрастанию
+              <li class="catalog-sort-menu-item" id="all-catalog">
+                Весь католог
               </li>
 
-              <li class="catalog-sort-menu-item">
-                Цены по Убыванию
+              <li class="catalog-sort-menu-item" id='cheap-catalog'>
+                Дешевая травосмесь
               </li>
 
-              <li class="catalog-sort-menu-item">
-                Название
+              <li class="catalog-sort-menu-item" id="expensive-catalog">
+                Дорогая травосмесь
               </li>
-              <li class="catalog-sort-menu-item">
+
+              
+              <li class="catalog-sort-menu-item" id="Best-sellers">
                 Хиты продаж
               </li>
 
-              <li class="catalog-sort-menu-item">
+              <li class="catalog-sort-menu-item" id="in-stock">
                 в наличии
               </li>
             </ul>
@@ -446,11 +448,32 @@
                 </p>
                 <p class="best-product-price">
                   <span class="best-product-money">
-                    от 927 ₽
+                    от <span class="best-product-mount-money">927</span>
                   </span>
 
                   <span class="best-product-package">
-                    / уп.
+                    ₽ / уп.
+                  </span>
+                </p>
+              </div>
+              
+            </li>
+
+            <li class="catalog-item best-product-item">
+              <span class='catalog-best-product'>Лучший товар</span>
+              <img src="../../image/package.svg" alt="">
+              <div class="catalog-text">
+
+                <p class="catalog-item-description">
+                  Газонная травосмесь «Придорожная»
+                </p>
+                <p class="best-product-price">
+                  <span class="best-product-money">
+                    от <span class="best-product-mount-money">1000</span>
+                  </span>
+
+                  <span class="best-product-package">
+                    ₽ / уп.
                   </span>
                 </p>
               </div>
@@ -495,11 +518,13 @@
               </div>
             </li>
 
-            <li class="catalog-item">
-              <img src="../../image/green-bag.svg" alt="">
+            <li class="catalog-item best-product-item">
+              <span class='catalog-best-product'>Лучший товар</span>
+              <img src="../../image/package.svg" alt="">
               <div class="catalog-text">
 
                 <p class="catalog-item-description">
+                  
                   Газонная травосмесь «Придорожная»
                 </p>
                 <p class="best-product-price">
@@ -855,5 +880,8 @@
     </div>
    </footer>
 </body>
+<script src="../../script/index-script.js"></script>
 <script src="../../script/proprietary-menu.js"></script>
+
+<script src="../../script/proprietary-sorted.js"></script>
 </html>
