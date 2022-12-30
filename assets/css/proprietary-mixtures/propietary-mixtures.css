@@ -417,11 +417,16 @@ main section{
 }
 .catalog-item{
     align-self: end;
-    width:13%;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.catalog-item-photo{
+    width:50%;
+    align-self: center;
 }
 
 .catalog-text{
@@ -430,7 +435,6 @@ main section{
 
 .catalog-best-product{
     font-size: 15px;
-    margin-bottom: 20px;
     color:red;
 }
 

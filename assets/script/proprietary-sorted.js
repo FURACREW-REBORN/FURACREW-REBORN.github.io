@@ -3,27 +3,6 @@ let bestProduct = document.getElementsByClassName('best-product-item')
  
 let catalogCardPrice = document.getElementsByClassName('best-product-mount-money')
 let allSortButton = document.getElementsByClassName('catalog-sort-menu-item')
-// ------------------------
-/*
-Дописать проверку при клике,
-скрыт ли блок и если он скрыт,
-то отобразить нужные блоки в
-соотвествии с выбранной кате-
-горией товаров
-
-*/
-// ------------------------
-
-for(let i = 0; i < catalogCardPrice.length; i++){
-    // console.log(catalogCardPrice[i].innerText)
-
-    // if(Number(catalogCardPrice[i].innerText) <= 1000){
-    //     console.log(`Дешевая травосмесь: ${catalogCardPrice[i].innerText}`)
-    // }else{
-    //     console.log(`Дорогая травосмесь: ${catalogCardPrice[i].innerText}`)
-    // }
-}
-
 for(let i = 0; i < allSortButton.length; i++){
     allSortButton[i].onclick = function(){
 
